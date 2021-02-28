@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
-import { AnimationsComponent } from './core/animations/animations/animations.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { JalalidatePipe } from './core/Pipe/jalalidate.pipe';
+import { JalalidatetimePipe } from './core/Pipe/jalalidatetime.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AnimationsComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
