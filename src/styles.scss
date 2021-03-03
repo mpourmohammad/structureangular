@@ -1,4 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  text-align: right;
+  font-family: Sahel;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Sahel;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("assets/fonts/Samim/sahel.eot");
+  src: url("assets/fonts/Samim/sahel.eot?#iefix") format("embedded-opentype"),
+    url("assets/fonts/Samim/sahel.woff") format("woff"),
+    url("assets/fonts/Samim/sahel.ttf") format("truetype");
+  font-weight: normal;
+}
