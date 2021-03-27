@@ -16,10 +16,6 @@ export class AdminLayoutComponent implements OnInit {
   lastIndexOf: number;
   sort: any[];
 
-
-  constructor() { }
-
-
   ngOnInit(): void {
     let obj: Array<any> = ['1', '2', '3', '4', '5'];
     let objSort: Array<any> = ['2', '1', '6', '4', '9'];

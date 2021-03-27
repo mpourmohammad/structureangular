@@ -1,1 +1,19 @@
-<p>tableuser works!</p>
+<table class="table table-sm">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">name</th>
+      <th scope="col">fun</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let arry of arryJson">
+      <td>{{ arry.id }}</td>
+      <td>{{ arry.name }}</td>
+      <td>
+        <button type="submit" class="btn btn-primary">Edit</button>
+        <button type="submit" class="btn btn-danger">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

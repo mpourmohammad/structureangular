@@ -13,7 +13,6 @@ import { TableheaderComponent } from './components/usermanagment/tableheader/tab
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PrimengModule } from 'src/app/shared/package/primeng.module';
 import { MaterialModule } from 'src/app/shared/package/material.module';
 
@@ -35,7 +34,9 @@ import { MaterialModule } from 'src/app/shared/package/material.module';
 
     // Package
     PrimengModule,
-    MaterialModule
+    MaterialModule,
+
+    // Permission
 
   ],
 
